@@ -1,6 +1,5 @@
 const config = {
-    // baseUrl : "https://havi-backend.herokuapp.com"
-    baseUrl : "http://localhost:9200"
+    baseUrl : "https://havi-day1.herokuapp.com"
 }
 
 export default config;
