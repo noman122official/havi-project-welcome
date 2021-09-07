@@ -81,7 +81,7 @@ export default function SignUp() {
   useMemo(() => {
     if (cookies.get("token")) {
       history.push({
-        pathname: "/listform",
+        pathname: "/welcome",
       });
     }
   }, []);

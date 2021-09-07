@@ -33,7 +33,10 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <Route path="/Welcome">
+            <Route path="/signup">
+              <SignUp></SignUp>
+            </Route>
+            <Route path="/welcome">
               <Welcome></Welcome>
             </Route>
           </Switch>
